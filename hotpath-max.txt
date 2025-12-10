@@ -1,0 +1,1122 @@
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 204.54ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.2 MB | 1.2 MB | 1.2 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 201.06ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.2 MB | 1.2 MB | 1.2 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 5.45s):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.2 MB | 1.2 MB | 1.2 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_DHKEMP256_AES128GCM_SHA256_P256/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 863.37ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.2 MB | 1.2 MB | 1.2 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_DHKEMP384_AES256GCM_SHA384_P384
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_256_DHKEMP384_AES256GCM_SHA384_P384/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 3.33s):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.2 MB | 1.2 MB | 1.2 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_MLKEM512_AES128GCM_SHA256_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 360.26ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_192_MLKEM768_AES256GCM_SHA384_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 533.54ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 501.51ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_256_MLKEM1024_AES256GCM_SHA512_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 695.08ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_P256
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_MLKEM512_AES128GCM_SHA256_P256/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 733.36ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_P256
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_192_MLKEM768_AES256GCM_SHA384_P256/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 923.04ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_P384
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_256_MLKEM1024_AES256GCM_SHA512_P384/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 2.37s):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_MLDSA44
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_128_MLKEM512_AES128GCM_SHA256_MLDSA44/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 840.81ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.5 MB | 1.5 MB | 1.5 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.37s):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_MLDSA87
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_256_MLKEM1024_AES256GCM_SHA512_MLDSA87/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.77s):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.8 MB | 1.8 MB | 1.8 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_XWING_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: None
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Solo_MLS_256_XWING_CHACHA20POLY1305_SHA256_Ed25519/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 481.32ms):
++-----------------------+-------+--------+--------+--------+---------+
+| Function              | Calls | Avg    | P95    | Total  | % Total |
++-----------------------+-------+--------+--------+--------+---------+
+| app::solo_with_epochs | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++-----------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_Ed25519"_with_"X25519_CHA_Ed25519"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 853.97ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.9 MB | 1.9 MB | 1.9 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_Ed25519"_with_"X25519_CHA_Ed25519"/ratio_2_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 551.41ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.5 MB | 1.5 MB | 1.5 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_Ed25519"_with_"X25519_CHA_Ed25519"/ratio_5_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 348.73ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_Ed25519"_with_"X25519_CHA_Ed25519"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 258.90ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_Ed25519"_with_"X25519_CHA_Ed25519"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 209.79ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_Ed25519"_with_"X25519_CHA_Ed25519"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 208.35ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_MLDSA65
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_MLDSA65"_with_"X25519_CHA_Ed25519"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.65s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.2 MB | 2.2 MB | 2.2 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_MLDSA65
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_MLDSA65"_with_"X25519_CHA_Ed25519"/ratio_2_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 924.76ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.8 MB | 1.8 MB | 1.8 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_MLDSA65
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_MLDSA65"_with_"X25519_CHA_Ed25519"/ratio_5_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 503.13ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_MLDSA65
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_MLDSA65"_with_"X25519_CHA_Ed25519"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 350.06ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_MLDSA65
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_MLDSA65"_with_"X25519_CHA_Ed25519"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 231.56ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM768_CHACHA20POLY1305_SHA256_MLDSA65
+Secondary ciphersuite: MLS_128_DHKEMX25519_CHACHA20POLY1305_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_CHA_MLDSA65"_with_"X25519_CHA_Ed25519"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 212.29ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_Ed25519"_with_"X25519_Ed25519"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 727.39ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.9 MB | 1.9 MB | 1.9 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_Ed25519"_with_"X25519_Ed25519"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 254.66ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_Ed25519"_with_"X25519_Ed25519"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 205.28ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_Ed25519"_with_"X25519_Ed25519"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 204.40ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_Ed25519"_with_"X25519_Ed25519"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 903.61ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.9 MB | 1.9 MB | 1.9 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_Ed25519"_with_"X25519_Ed25519"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 265.07ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_Ed25519"_with_"X25519_Ed25519"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 210.38ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_Ed25519"_with_"X25519_Ed25519"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 239.89ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_Ed25519"_with_"X25519_Ed25519"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.03s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.0 MB | 2.0 MB | 2.0 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_Ed25519"_with_"X25519_Ed25519"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 285.41ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_Ed25519"_with_"X25519_Ed25519"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 217.89ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_Ed25519
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_Ed25519"_with_"X25519_Ed25519"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 215.41ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_P256"_with_"P256_ECDSA"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 2.16s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.9 MB | 1.9 MB | 1.9 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_P256"_with_"P256_ECDSA"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.01s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_P256"_with_"P256_ECDSA"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 910.90ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_P256"_with_"P256_ECDSA"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 917.49ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.3 MB | 1.3 MB | 1.3 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_P256"_with_"P256_ECDSA"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 2.32s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.9 MB | 1.9 MB | 1.9 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_P256"_with_"P256_ECDSA"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.02s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_P256"_with_"P256_ECDSA"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 909.45ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_P256
+Secondary ciphersuite: MLS_128_DHKEMP256_AES128GCM_SHA256_P256
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_P256"_with_"P256_ECDSA"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 891.62ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_P384
+Secondary ciphersuite: MLS_256_DHKEMP384_AES256GCM_SHA384_P384
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_P384"_with_"P384_ECDSA"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 7.75s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.1 MB | 2.1 MB | 2.1 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_P384
+Secondary ciphersuite: MLS_256_DHKEMP384_AES256GCM_SHA384_P384
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_P384"_with_"P384_ECDSA"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 3.85s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_P384
+Secondary ciphersuite: MLS_256_DHKEMP384_AES256GCM_SHA384_P384
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_P384"_with_"P384_ECDSA"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 3.49s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_P384
+Secondary ciphersuite: MLS_256_DHKEMP384_AES256GCM_SHA384_P384
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_P384"_with_"P384_ECDSA"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 3.44s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.4 MB | 1.4 MB | 1.4 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_MLDSA44
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_MLDSA44"_with_"X25519_Ed25519"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 1.22s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.0 MB | 2.0 MB | 2.0 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_MLDSA44
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_MLDSA44"_with_"X25519_Ed25519"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 306.86ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.5 MB | 1.5 MB | 1.5 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_MLDSA44
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_MLDSA44"_with_"X25519_Ed25519"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 226.85ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.5 MB | 1.5 MB | 1.5 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_128_MLKEM512_AES128GCM_SHA256_MLDSA44
+Secondary ciphersuite: MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM512_MLDSA44"_with_"X25519_Ed25519"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 215.78ms):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.5 MB | 1.5 MB | 1.5 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_MLDSA65"_with_"X448_Ed448"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 11.81s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.5 MB | 2.5 MB | 2.5 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_MLDSA65"_with_"X448_Ed448"/ratio_2_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 8.93s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.0 MB | 2.0 MB | 2.0 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_MLDSA65"_with_"X448_Ed448"/ratio_5_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 7.14s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.7 MB | 1.7 MB | 1.7 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_MLDSA65"_with_"X448_Ed448"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 6.15s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_MLDSA65"_with_"X448_Ed448"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 5.73s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.7 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_192_MLKEM768_AES256GCM_SHA384_MLDSA65
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM768_MLDSA65"_with_"X448_Ed448"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 5.60s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.6 MB | 1.6 MB | 1.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_MLDSA87
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_MLDSA87"_with_"X448_Ed448"/ratio_1_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 12.23s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 2.6 MB | 2.6 MB | 2.6 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_MLDSA87
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_MLDSA87"_with_"X448_Ed448"/ratio_10_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 6.22s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.8 MB | 1.8 MB | 1.8 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_MLDSA87
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_MLDSA87"_with_"X448_Ed448"/ratio_50_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 5.68s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.8 MB | 1.8 MB | 1.8 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+
+Gnuplot not found, using plotters backend
+Client count: 2
+Epochs: 500
+Sample size: 10
+Primary ciphersuite: MLS_256_MLKEM1024_AES256GCM_SHA512_MLDSA87
+Secondary ciphersuite: MLS_256_DHKEMX448_AES256GCM_SHA512_Ed448
+Running custom benchmark with config: BenchConfig { clients: [2], epochs: 500, sample_size: 10 }
+Testing Hybrid_Combiner_"MLKEM1024_MLDSA87"_with_"X448_Ed448"/ratio_100_clients_2/2
+Success
+
+
+[hotpath] Max bytes allocation statistics from flex_sim::cli_args_benchmark (Total time: 5.61s):
++---------------------------+-------+--------+--------+--------+---------+
+| Function                  | Calls | Avg    | P95    | Total  | % Total |
++---------------------------+-------+--------+--------+--------+---------+
+| app::hybrid_combiner_flex | 1     | 1.8 MB | 1.8 MB | 1.8 MB | 100.00% |
++---------------------------+-------+--------+--------+--------+---------+

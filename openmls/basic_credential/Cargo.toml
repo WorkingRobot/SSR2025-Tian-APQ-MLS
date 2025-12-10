@@ -1,0 +1,29 @@
+[package]
+name = "openmls_basic_credential"
+version = "0.4.1"
+authors = ["OpenMLS Authors"]
+edition = "2021"
+description = "A Basic Credential implementation for OpenMLS"
+license = "MIT"
+documentation = "https://docs.rs/openmls_basic_credential"
+repository = "https://github.com/openmls/openmls/tree/main/basic_credential"
+readme = "README.md"
+
+[dependencies]
+openmls_traits = { workspace = true }
+tls_codec = { workspace = true }
+serde = "1.0"
+
+# Rust Crypto
+ed25519-dalek = { version = "2.0", features = ["rand_core"] }
+#ed448-goldilocks = { version = "0.14.0-pre.4", features = ["signing"] }
+ed448-goldilocks-plus = { version = "0.16" }
+ml-dsa = "0.0.4"
+p256 = { version = "0.13" }
+p384 = "0.13"
+p521 = { version = "0.13", features = ["ecdh"] }
+rand = "0.8"
+
+[features]
+clonable = []   # Make the keys clonable
+test-utils = [] # Only use for tests!

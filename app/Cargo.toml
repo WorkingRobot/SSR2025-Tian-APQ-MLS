@@ -1,0 +1,37 @@
+[package]
+name = "app"
+version = "0.1.0"
+description = "OpenMLS HPKE Post-Quantum Benchmark Application"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+openmls = { path = "../openmls/openmls", features = ["test-utils"] }
+openmls_rust_crypto = { path = "../openmls/openmls_rust_crypto" }
+openmls_basic_credential = { path = "../openmls/basic_credential" }
+openmls_traits = { path = "../openmls/traits" }
+rand = "0.9"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+hotpath = { version = "0.2", optional = true }
+
+[dev-dependencies]
+criterion = { version = "0.7", features = ["html_reports"] }
+
+[features]
+hotpath = ["dep:hotpath", "hotpath/hotpath"]
+hotpath-alloc-bytes-total = ["hotpath/hotpath-alloc-bytes-total"]
+hotpath-alloc-bytes-max = ["hotpath/hotpath-alloc-bytes-max"]
+hotpath-alloc-count-total= ["hotpath/hotpath-alloc-count-total"]
+hotpath-alloc-count-max= ["hotpath/hotpath-alloc-count-max"]
+hotpath-off = ["hotpath/hotpath-off"]
+
+[[bench]]
+name = "flex_sim"
+harness = false
+
+[[bench]]
+name = "sim_benchmark"
+harness = false
