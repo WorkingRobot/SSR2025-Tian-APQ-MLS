@@ -1,73 +1,51 @@
 [workspace]
 members = [
   "app",
-  "hpke-rs/libcrux_provider",
   "hpke-rs/rust_crypto_provider",
   "hpke-rs/traits",
   "openmls/basic_credential",
-  "openmls/cli",
-  "openmls/delivery-service/ds",
-  "openmls/delivery-service/ds-lib",
-  "openmls/fuzz",
-  "openmls/interop_client",
-  "openmls/libcrux_crypto",
   "openmls/memory_storage",
   "openmls/openmls",
-  "openmls/openmls-wasm",
   "openmls/openmls_rust_crypto",
   "openmls/openmls_test",
-  "openmls/sqlite_storage",
   "openmls/traits",
-]
-exclude = [
 ]
 resolver = "3"
 
 [workspace.dependencies]
-hpke-rs = { path = "./hpke-rs", default-features = false }
-hpke-rs-fuzz = { path = "./hpke-rs/fuzz", default-features = false }
-hpke-rs-libcrux = { path = "./hpke-rs/libcrux_provider", default-features = false }
-no-std-support-check = { path = "./hpke-rs/no-std-support-check", default-features = false }
-hpke-rs-rust-crypto = { path = "./hpke-rs/rust_crypto_provider", default-features = false }
-hpke-rs-crypto = { path = "./hpke-rs/traits", default-features = false }
-openmls_basic_credential = { path = "./openmls/basic_credential", default-features = false }
-cli = { path = "./openmls/cli", default-features = false }
-mls-ds = { path = "./openmls/delivery-service/ds", default-features = false }
-ds-lib = { path = "./openmls/delivery-service/ds-lib", default-features = false }
-openmls-fuzz = { path = "./openmls/fuzz", default-features = false }
-interop_client = { path = "./openmls/interop_client", default-features = false }
-openmls_libcrux_crypto = { path = "./openmls/libcrux_crypto", default-features = false }
-openmls_memory_storage = { path = "./openmls/memory_storage", default-features = false }
+# OpenMLS crates (local PQ-modified forks)
 openmls = { path = "./openmls/openmls", default-features = false }
-openmls-wasm = { path = "./openmls/openmls-wasm", default-features = false }
-openmls_rust_crypto = { path = "./openmls/openmls_rust_crypto", default-features = false }
-openmls_test = { path = "./openmls/openmls_test", default-features = false }
-openmls_sqlite_storage = { path = "./openmls/sqlite_storage", default-features = false }
 openmls_traits = { path = "./openmls/traits", default-features = false }
-tls_codec = { version = "0.4", features = [ "derive", "serde", "mls" ] }
+openmls_rust_crypto = { path = "./openmls/openmls_rust_crypto", default-features = false }
+openmls_basic_credential = { path = "./openmls/basic_credential", default-features = false }
+openmls_memory_storage = { path = "./openmls/memory_storage", default-features = false }
+openmls_test = { path = "./openmls/openmls_test", default-features = false }
+openmls_libcrux_crypto = { path = "./openmls/libcrux_crypto", default-features = false }
+openmls_sqlite_storage = { path = "./openmls/sqlite_storage", default-features = false }
+
+# HPKE crates (local PQ-modified forks)
+hpke-rs = { path = "./hpke-rs", default-features = false }
+hpke-rs-crypto = { path = "./hpke-rs/traits", default-features = false }
+hpke-rs-rust-crypto = { path = "./hpke-rs/rust_crypto_provider", default-features = false }
+
+# Shared dependencies
+tls_codec = { version = "0.4", features = ["derive", "serde", "mls"] }
 
 [patch.crates-io]
+# Local PQ-modified forks override crates.io versions
 hpke-rs = { path = "./hpke-rs" }
-hpke-rs-fuzz = { path = "./hpke-rs/fuzz" }
-hpke-rs-libcrux = { path = "./hpke-rs/libcrux_provider" }
-no-std-support-check = { path = "./hpke-rs/no-std-support-check" }
 hpke-rs-rust-crypto = { path = "./hpke-rs/rust_crypto_provider" }
 hpke-rs-crypto = { path = "./hpke-rs/traits" }
-openmls_basic_credential = { path = "./openmls/basic_credential" }
-cli = { path = "./openmls/cli" }
-mls-ds = { path = "./openmls/delivery-service/ds" }
-ds-lib = { path = "./openmls/delivery-service/ds-lib" }
-openmls-fuzz = { path = "./openmls/fuzz" }
-interop_client = { path = "./openmls/interop_client" }
-openmls_libcrux_crypto = { path = "./openmls/libcrux_crypto" }
-openmls_memory_storage = { path = "./openmls/memory_storage" }
 openmls = { path = "./openmls/openmls" }
-openmls-wasm = { path = "./openmls/openmls-wasm" }
-openmls_rust_crypto = { path = "./openmls/openmls_rust_crypto" }
-openmls_test = { path = "./openmls/openmls_test" }
-openmls_sqlite_storage = { path = "./openmls/sqlite_storage" }
 openmls_traits = { path = "./openmls/traits" }
+openmls_rust_crypto = { path = "./openmls/openmls_rust_crypto" }
+openmls_basic_credential = { path = "./openmls/basic_credential" }
+openmls_memory_storage = { path = "./openmls/memory_storage" }
+openmls_test = { path = "./openmls/openmls_test" }
+openmls_libcrux_crypto = { path = "./openmls/libcrux_crypto" }
+openmls_sqlite_storage = { path = "./openmls/sqlite_storage" }
 
+# RustCrypto pre-release PQ dependencies
 kem = { git = "https://github.com/RustCrypto/traits.git" }
 ml-kem = { git = "https://github.com/RustCrypto/KEMs.git" }
 x-wing = { git = "https://github.com/RustCrypto/KEMs.git" }

@@ -436,10 +436,20 @@ fn cli_args_benchmark(c: &mut Criterion) {
         .ok()
         .and_then(|s| s.parse::<usize>().ok())
         .unwrap_or(10);
-    let cs1 = env::var("FLEX_SIM_CS1")
-        .ok()
-        .and_then(|s| cs_from_str(&s))
-        .expect("Must set primary ciphersuite environment variable: FLEX_SIM_CS1");
+    let cs1 = match env::var("FLEX_SIM_CS1").ok().and_then(|s| cs_from_str(&s)) {
+        Some(cs) => cs,
+        None => {
+            // No ciphersuite specified — run quick benchmark instead
+            println!("FLEX_SIM_CS1 not set, running quick benchmark");
+            let config = BenchConfig {
+                clients: vec![2],
+                epochs: 5,
+                sample_size: 10,
+            };
+            bench_solo(c, &config, Ciphersuite::MLS_128_DHKEMX25519_AES128GCM_SHA256_Ed25519);
+            return;
+        }
+    };
     let cs2 = env::var("FLEX_SIM_CS2")
         .ok()
         .and_then(|s| cs_from_str(&s));
@@ -563,11 +573,10 @@ criterion_group!(comprehensive, comprehensive_benchmark);
 criterion_group!(quick, quick_benchmark);
 criterion_group!(cli, cli_args_benchmark);
 
-// Use 'quick' for development, 'comprehensive' for full benchmarking
-// criterion_main!(quick);
-// criterion_main!(comprehensive);
-criterion_main!(combiner_only);
-// criterion_main!(cli);
+// Set FLEX_SIM_CS1 (and optionally FLEX_SIM_CS2, FLEX_SIM_CS2_TO_CS1_RATIO) env
+// vars to control which benchmark runs. Without env vars, runs a quick default.
+// Other groups: 'quick', 'comprehensive', 'combiner_only'
+criterion_main!(cli);
 
 fn solo_with_epochs(clients: usize, ciphersuite: Ciphersuite, epochs: usize) {
     app::solo_with_epochs(clients as u8, epochs as i32, ciphersuite);

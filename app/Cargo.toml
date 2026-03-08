@@ -7,10 +7,10 @@ edition = "2024"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-openmls = { path = "../openmls/openmls", features = ["test-utils"] }
-openmls_rust_crypto = { path = "../openmls/openmls_rust_crypto" }
-openmls_basic_credential = { path = "../openmls/basic_credential" }
-openmls_traits = { path = "../openmls/traits" }
+openmls = { workspace = true, features = ["test-utils"] }
+openmls_rust_crypto = { workspace = true }
+openmls_basic_credential = { workspace = true }
+openmls_traits = { workspace = true }
 rand = "0.9"
 
 serde = { version = "1.0", features = ["derive"] }
